@@ -1,0 +1,160 @@
+[INFO] <2023-10-18 08:49:28.4260> Xopero.Management.ManagementService.Program (Program.cs:29)
+######                                                                                                                                                         
+  ######                                                                                                                                                       
+   #######                                                                                                                                                     
+     #######                                                                                                                                                   
+       #######                                                                                                                                                 
+         #######         ######          #############          ##############         ################       #############             #############          
+           #######     ######          ######     ######        ####      ######       ####                   ####     ######         ######     #######       
+             ####### ######          #####           #####      ####        #####      ####                   ####       #####      #####           #####      
+               ##########            ####             ####      ####        #####      ########               ####        ####      ####             ####      
+                 ######              ####             ####      #####     ######       #######                ####      #####       ####             #####     
+               ##########            #####           #####      ##############         ####                   #############         #####           #####      
+             ######  ######           #######     ######        #######                ####                   ###### #####            ######      ######       
+           ######      ######            #############          #####                  ################       ####     #####            #############          
+         #######                                                                                                                                               
+       #######                                                                                                                                                 
+     #######                                                                                                                                                   
+   #######                                                                                                                                                     
+ #######                                                                                                                                                       
+  ####                                                                                                                                                          
+
+
+[INFO] <2023-10-18 08:49:28.7393> Xopero.Management.ManagementService.Program (Program.cs:32)
+Xopero ONE Backup&Recovery Service 1.5.7.5193
+
+
+[INFO] <2023-10-18 08:49:36.6727> Xopero.Management.Module.ManagementModule.Device.ConnectionManager (ConnectionManager.cs:69)
+MaxParallellyProcessedConnections: 3
+
+
+[INFO] <2023-10-18 08:49:38.5678> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20201218121127_Initial'.
+
+
+[INFO] <2023-10-18 08:49:38.6357> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20201218124601_LanguageCode'.
+
+
+[INFO] <2023-10-18 08:49:38.6563> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20210111123342_RoleAndPermissions'.
+
+
+[INFO] <2023-10-18 08:49:38.6783> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20210324132842_PasswordReset'.
+
+
+[INFO] <2023-10-18 08:49:38.7011> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20210720123942_UpdateRootAdminRole'.
+
+
+[INFO] <2023-10-18 08:49:38.7319> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20210929084338_UserEverLoggedIn'.
+
+
+[INFO] <2023-10-18 08:49:38.7509> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20220315093752_Webhooks'.
+
+
+[INFO] <2023-10-18 08:49:38.7833> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20221209160241_AuthenticationMethod'.
+
+
+[INFO] <2023-10-18 08:49:38.8049> Microsoft.EntityFrameworkCore.Migrations 
+Applying migration '20221212073347_SourceIdPId'.
+
+
+[INFO] <2023-10-18 08:49:39.3239> Microsoft.Hosting.Lifetime 
+Now listening on: http://[::]:28555
+
+
+[INFO] <2023-10-18 08:49:39.3239> Microsoft.Hosting.Lifetime 
+Application started. Hosting environment: Production; Content root path: C:\Program Files\Xopero ONE Backup&Recovery\
+
+
+[WARN] <2023-10-18 08:49:56.0200> Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware 
+Failed to determine the https port for redirect.
+
+
+[ERROR] <2023-10-18 08:50:46.5026> Xopero.Management.Module.Licences.LicenceModule 
+Method LicenceModule::GetAttachedLicencePackage ended with error.
+Xopero.Core.Management.Module.Licences.XoperoLicenceModuleException: LI5103
+   at Xopero.Management.Module.Licences.LicenceModule.#wpb(ELicenceModuleState[] #xpb) in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Licence/LicenceModule.cs:line 1629
+   at Xopero.Management.Module.Licences.LicenceModule.#YHh() in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Licence/LicenceModule.cs:line 392
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+
+[ERROR] <2023-10-18 08:50:48.1769> Xopero.Management.Module.Licences.LicenceModule 
+Method LicenceModule::GetAttachedLicencePackage ended with error.
+Xopero.Core.Management.Module.Licences.XoperoLicenceModuleException: LI5103
+   at Xopero.Management.Module.Licences.LicenceModule.#wpb(ELicenceModuleState[] #xpb) in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Licence/LicenceModule.cs:line 1629
+   at Xopero.Management.Module.Licences.LicenceModule.#YHh() in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Licence/LicenceModule.cs:line 392
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+
+[ERROR] <2023-10-18 08:50:48.2962> Xopero.Management.Module.Licences.LicenceModule 
+Method LicenceModule::GetAttachedLicencePackage ended with error.
+Xopero.Core.Management.Module.Licences.XoperoLicenceModuleException: LI5103
+   at Xopero.Management.Module.Licences.LicenceModule.#wpb(ELicenceModuleState[] #xpb) in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Licence/LicenceModule.cs:line 1629
+   at Xopero.Management.Module.Licences.LicenceModule.#YHh() in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Licence/LicenceModule.cs:line 392
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+
+[ERROR] <2023-10-18 08:50:48.2962> Xopero.Management.Module.ManagementModule.Accounts.AccountsManager (AccountsManager.cs:463)
+An error occured during getting available backup features. Message: LI5103
+
+
+[ERROR] <2023-10-18 08:50:49.0855> Xopero.Management.Module.Settings.SettingsModule 
+Method SettingsModule::Get ended with error.
+Xopero.Core.Management.Module.Settings.XoperoSettingsModuleException: Key: options.DefaultDeviceId was not found in the database. Database path: C:\ProgramData\Xopero ONE\Xopero ONE Backup&Recovery Service\SettingsModule\b90a8c30-546c-49d6-887a-17129cb25d3a-settings.db
+   at Xopero.Core.Utils.GuardEx.IsTrue(Boolean condition, String message, ESettingsErrorCode errorCode)
+   at Xopero.Management.Module.Settings.SettingsModule.#1A.#YB() in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Settings/SettingsModule.cs:line 260
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+
+[ERROR] <2023-10-18 08:50:49.0886> Xopero.Management.Module.Settings.SettingsModule 
+Method SettingsModule::Get ended with error.
+Xopero.Core.Management.Module.Settings.XoperoSettingsModuleException: Key: options.DefaultDeviceId was not found in the database. Database path: C:\ProgramData\Xopero ONE\Xopero ONE Backup&Recovery Service\SettingsModule\b90a8c30-546c-49d6-887a-17129cb25d3a-settings.db
+   at Xopero.Core.Utils.GuardEx.IsTrue(Boolean condition, String message, ESettingsErrorCode errorCode)
+   at Xopero.Management.Module.Settings.SettingsModule.#1A.#YB() in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Settings/SettingsModule.cs:line 260
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+   at Xopero.Core.Management.Module.AModule`1.execute[TResult,TErrorcodeEnum](Func`1 func, TErrorcodeEnum errorCode, Int32 lineNumber, String filePath, String memberName)
+   at Xopero.Management.Module.Settings.SettingsModule.#un(String #td) in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/Settings/SettingsModule.cs:line 237
+   at Xopero.Management.Module.Settings.SettingsModule.#xSd.#YB()
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+
+[ERROR] <2023-10-18 08:50:49.0886> Xopero.Management.Module.ManagementModule.Device.DeviceModule 
+Method DeviceModule::GetDefaultDevice ended with error.
+Xopero.Core.Management.Module.ManagementModule.Device.XoperoDeviceModuleException: DV2036
+   at Xopero.Core.Utils.GuardEx.IsTrue(Boolean condition, EDeviceErrorCode errorCode)
+   at Xopero.Management.Module.ManagementModule.Device.DeviceModule.#8Fb() in /home/robert/buildAgent_Teamcity2/work/d45c1308361279d1/Xopero/Management/Module/ManagementModule/Device/DeviceModule.cs:line 420
+   at Xopero.Core.Management.Module.AModule`1.#yu[#tn,#Au](Func`1 #ro, #Au #Mc, String #uh, Int32 #Oo, String #Po)
+
+[INFO] <2023-10-18 08:51:02.8434> Xopero.Management.Module.ManagementModule.Storage.StorageModule (StorageModule.cs:2778)
+Creating new Xopero Storages.
+
+
+[INFO] <2023-10-18 08:51:03.2966> Xopero.Management.Module.UserLogs.UserLogsModule (UserLogsModule.cs:880)
+Starting user log archivization...
+
+
+[INFO] <2023-10-18 08:51:03.3647> Xopero.Management.Module.UserLogs.UserLogsModule (UserLogsModule.cs:917)
+Started to move user logs from archived database...
+
+
+[INFO] <2023-10-18 08:51:03.4141> Xopero.Management.Module.UserLogs.UserLogsModule (UserLogsModule.cs:918)
+User logs from archived database moved successfully.
+
+
+[ERROR] <2023-10-18 08:51:03.4141> Xopero.Management.Module.ManagementModule.Plan.PlanModule (PlanModule.cs:1508)
+Cannot attach new storage to predefined plans, can't find new storage to attach.
+
+
+[INFO] <2023-10-18 08:52:01.2283> Microsoft.Hosting.Lifetime 
+Application is shutting down...
+
+
+[INFO] <2023-10-18 08:52:01.6800> Xopero.Management.ManagementService.Program (Program.cs:41)
+Program has been terminated correctly.
+
+
+[DEBUG] <2023-10-18 08:52:01.6800> Xopero.Management.ManagementService.Program 
+Shutting down log manager.
+
+
